@@ -1,0 +1,43 @@
+[0.025s] Invoking command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[0.163s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o[0m
+[3.037s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:154:3:[m[K [01;31m[Kerror: [m[K‘[01m[KNode[m[K’ does not name a type
+[3.037s]   154 |   [01;31m[KNode[m[K* node_ptr = final_node;
+[3.037s]       |   [01;31m[K^~~~[m[K
+[3.037s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:155:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[3.037s]   155 |   [01;31m[Kwhile[m[K (node_ptr) {
+[3.037s]       |   [01;31m[K^~~~~[m[K
+[3.037s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:169:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[3.037s]   169 |   std::reverse[01;31m[K([m[Kpath_poses.begin(), path_poses.end());
+[3.037s]       |               [01;31m[K^[m[K
+[3.039s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_path[m[K’ does not name a type
+[3.039s]   170 |   [01;31m[Kglobal_path[m[K.poses = path_poses;
+[3.039s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.039s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.039s]                  from [01m[K/opt/ros/humble/include/nav2_util/node_utils.hpp:20[m[K,
+[3.039s]                  from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:8[m[K:
+[3.039s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:172:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+[3.039s]   172 |   [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "A* path with %zu poses found", global_path.poses.size());
+[3.039s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.039s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:172:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+[3.039s]   172 |   [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "A* path with %zu poses found", global_path.poses.size());
+[3.039s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[3.039s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:173:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[3.039s]   173 |   [01;31m[Kreturn[m[K global_path;
+[3.039s]       |   [01;31m[K^~~~~~[m[K
+[3.039s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:176:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[3.039s]   176 | [01;31m[K}[m[K  // namespace nav2_custom_planner
+[3.039s]       | [01;31m[K^[m[K
+[4.134s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o] Error 1
+[4.135s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+[4.135s] gmake: *** [Makefile:146: all] Error 2
+[4.137s] Invoked command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12

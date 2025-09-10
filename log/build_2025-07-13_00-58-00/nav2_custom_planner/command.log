@@ -1,0 +1,2 @@
+Invoking command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12
+Invoked command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12

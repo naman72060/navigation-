@@ -1,0 +1,75 @@
+[0.009s] Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+[0.028s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.111s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.156s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.156s] -- Configured cppcheck include dirs: 
+[0.156s] -- Configured cppcheck exclude dirs and/or files: 
+[0.156s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.156s] -- Added test 'lint_cmake' to check CMake code style
+[0.157s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.158s] -- Added test 'uncrustify' to check C / C++ code style
+[0.158s] -- Configured uncrustify additional arguments: 
+[0.158s] -- Added test 'xmllint' to check XML markup files
+[0.159s] -- Configuring done
+[0.163s] -- Generating done
+[0.164s] -- Build files have been written to: /home/naman72060/ros2_wsn/build/auto_explo
+[0.178s] Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+[0.184s] Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo
+[0.188s] -- Install configuration: ""
+[0.188s] -- Execute custom install script
+[0.188s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch/explore.launch.py
+[0.189s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch/slam.launch.py
+[0.189s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/explore.yaml
+[0.189s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/slam.yaml
+[0.189s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//rviz/explore.rviz
+[0.189s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/CHANGELOG.rst
+[0.195s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/CHANGELOG.rst:Zone.Identifier
+[0.200s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/CMakeLists.txt
+[0.206s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/CMakeLists.txt:Zone.Identifier
+[0.212s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/config/params.yaml
+[0.217s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/config/params.yaml:Zone.Identifier
+[0.223s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/config/params_costmap.yaml
+[0.228s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/config/params_costmap.yaml:Zone.Identifier
+[0.234s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/doc/architecture.dia
+[0.239s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/doc/architecture.dia:Zone.Identifier
+[0.245s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/doc/screenshot.png
+[0.250s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/doc/screenshot.png:Zone.Identifier
+[0.256s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/doc/wiki_doc.txt
+[0.261s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/doc/wiki_doc.txt:Zone.Identifier
+[0.267s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/costmap_client.h
+[0.273s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/costmap_client.h:Zone.Identifier
+[0.278s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/costmap_tools.h
+[0.283s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/costmap_tools.h:Zone.Identifier
+[0.288s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/explore.h
+[0.293s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/explore.h:Zone.Identifier
+[0.299s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/frontier_search.h
+[0.305s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/include/explore/frontier_search.h:Zone.Identifier
+[0.311s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/launch/explore.launch.py
+[0.316s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/launch/explore.launch.py:Zone.Identifier
+[0.321s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/package.xml
+[0.327s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/package.xml:Zone.Identifier
+[0.332s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/src/costmap_client.cpp
+[0.337s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/src/costmap_client.cpp:Zone.Identifier
+[0.342s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/src/explore.cpp
+[0.348s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/src/explore.cpp:Zone.Identifier
+[0.353s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/src/frontier_search.cpp
+[0.358s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/src/frontier_search.cpp:Zone.Identifier
+[0.363s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/test/test_explore.cpp
+[0.368s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//explore/test/test_explore.cpp:Zone.Identifier
+[0.373s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/package_run_dependencies/auto_explo
+[0.373s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/parent_prefix_path/auto_explo
+[0.373s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.sh
+[0.374s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.dsv
+[0.374s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.sh
+[0.374s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.dsv
+[0.374s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.bash
+[0.374s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.sh
+[0.374s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.zsh
+[0.374s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.dsv
+[0.374s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.dsv
+[0.379s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/packages/auto_explo
+[0.380s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig.cmake
+[0.380s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig-version.cmake
+[0.380s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.xml
+[0.382s] Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo

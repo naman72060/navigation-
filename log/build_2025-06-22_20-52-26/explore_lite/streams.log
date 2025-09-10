@@ -1,0 +1,110 @@
+[0.013s] Invoking command in '/home/naman72060/ros2_wsn/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/naman72060/ros2_wsn/src/explore -DCMAKE_INSTALL_PREFIX=/home/naman72060/ros2_wsn/install/explore_lite
+[0.261s] -- The C compiler identification is GNU 11.4.0
+[0.584s] -- The CXX compiler identification is GNU 11.4.0
+[0.730s] -- Detecting C compiler ABI info
+[0.812s] -- Detecting C compiler ABI info - done
+[0.816s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.817s] -- Detecting C compile features
+[0.818s] -- Detecting C compile features - done
+[0.820s] -- Detecting CXX compiler ABI info
+[0.903s] -- Detecting CXX compiler ABI info - done
+[0.906s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.907s] -- Detecting CXX compile features
+[0.907s] -- Detecting CXX compile features - done
+[0.907s] -- BuilD for ROS2: humble
+[0.918s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.020s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.093s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.194s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.199s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.207s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.275s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.277s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.298s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.308s] -- Looking for pthread.h
+[1.461s] -- Looking for pthread.h - found
+[1.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.541s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.542s] -- Found Threads: TRUE  
+[1.587s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.613s] -- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.694s] -- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.721s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.722s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.722s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.724s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.759s] -- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)
+[1.774s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.793s] -- Found nav2_costmap_2d: 1.1.18 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[2.702s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.759s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.762s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.772s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.772s] -- Configured cppcheck include dirs: /home/naman72060/ros2_wsn/src/explore/include;$<BUILD_INTERFACE:/home/naman72060/ros2_wsn/src/explore/include>
+[2.772s] -- Configured cppcheck exclude dirs and/or files: 
+[2.773s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.774s] -- Added test 'lint_cmake' to check CMake code style
+[2.774s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.775s] -- Added test 'uncrustify' to check C / C++ code style
+[2.775s] -- Configured uncrustify additional arguments: 
+[2.776s] -- Added test 'xmllint' to check XML markup files
+[2.778s] -- Configuring done
+[2.868s] -- Generating done
+[2.875s] -- Build files have been written to: /home/naman72060/ros2_wsn/build/explore_lite
+[2.883s] Invoked command in '/home/naman72060/ros2_wsn/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/naman72060/ros2_wsn/src/explore -DCMAKE_INSTALL_PREFIX=/home/naman72060/ros2_wsn/install/explore_lite
+[2.885s] Invoking command in '/home/naman72060/ros2_wsn/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/explore_lite -- -j12 -l12
+[2.917s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.917s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.927s] [ 30%] [32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o[0m
+[2.928s] [ 40%] [32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o[0m
+[2.931s] [ 50%] [32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o[0m
+[3.595s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.635s] [ 60%] Built target gtest_main
+[5.875s] [ 70%] [32m[1mLinking CXX static library libgtest.a[0m
+[5.931s] [ 70%] Built target gtest
+[5.957s] [ 80%] [32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o[0m
+[7.130s] [ 90%] [32m[1mLinking CXX executable test_explore[0m
+[8.265s] [ 90%] Built target test_explore
+[14.458s] [100%] [32m[1mLinking CXX executable explore[0m
+[16.093s] [100%] Built target explore
+[16.103s] Invoked command in '/home/naman72060/ros2_wsn/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/explore_lite -- -j12 -l12
+[16.104s] Invoking command in '/home/naman72060/ros2_wsn/build/explore_lite': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/explore_lite
+[16.110s] -- Install configuration: ""
+[16.110s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore/
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//explore.h:Zone.Identifier
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_tools.h
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_client.h
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_tools.h:Zone.Identifier
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//frontier_search.h
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//frontier_search.h:Zone.Identifier
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_client.h:Zone.Identifier
+[16.111s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//explore.h
+[16.112s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config
+[16.112s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params.yaml
+[16.112s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params_costmap.yaml
+[16.112s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params_costmap.yaml:Zone.Identifier
+[16.112s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params.yaml:Zone.Identifier
+[16.112s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/launch
+[16.112s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/launch/explore.launch.py:Zone.Identifier
+[16.113s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/launch/explore.launch.py
+[16.113s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/lib/explore_lite/explore
+[16.118s] -- Set runtime path of "/home/naman72060/ros2_wsn/install/explore_lite/lib/explore_lite/explore" to ""
+[16.118s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite
+[16.118s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite
+[16.118s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/path.sh
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/path.dsv
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.bash
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.sh
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.zsh
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.dsv
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.dsv
+[16.119s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/ament_index/resource_index/packages/explore_lite
+[16.120s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.120s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake
+[16.120s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake
+[16.120s] -- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.xml
+[16.122s] Invoked command in '/home/naman72060/ros2_wsn/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/explore_lite

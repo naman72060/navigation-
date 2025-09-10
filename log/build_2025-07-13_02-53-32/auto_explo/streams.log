@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+[0.061s] Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+[0.073s] Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo
+[0.082s] -- Install configuration: ""
+[0.083s] -- Execute custom install script
+[0.083s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch/navigation.launch.py
+[0.083s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch/slam.launch.py
+[0.084s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/my_map_slam.pgm
+[0.084s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/my_map_slam.pgm:Zone.Identifier
+[0.084s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/my_map_slam.yaml
+[0.084s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/my_map_slam.yaml:Zone.Identifier
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/nav2_param.yaml
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/navigation.rviz
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/package_run_dependencies/auto_explo
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/parent_prefix_path/auto_explo
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.sh
+[0.085s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.dsv
+[0.086s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.bash
+[0.086s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.sh
+[0.086s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.zsh
+[0.086s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.dsv
+[0.086s] -- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.dsv
+[0.096s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/packages/auto_explo
+[0.096s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig.cmake
+[0.096s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig-version.cmake
+[0.096s] -- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.xml
+[0.101s] Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo

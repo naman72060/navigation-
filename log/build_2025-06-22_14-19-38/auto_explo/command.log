@@ -1,0 +1,6 @@
+Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/naman72060/ros2_wsn/src/auto_explo -DCMAKE_INSTALL_PREFIX=/home/naman72060/ros2_wsn/install/auto_explo
+Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/naman72060/ros2_wsn/src/auto_explo -DCMAKE_INSTALL_PREFIX=/home/naman72060/ros2_wsn/install/auto_explo
+Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo
+Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo

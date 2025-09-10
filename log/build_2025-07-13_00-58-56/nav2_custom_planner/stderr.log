@@ -1,0 +1,29 @@
+In file included from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&, std::function<bool()>)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   36 |   nav_msgs::msg::Path [01;31m[KcreatePlan[m[K(
+      |                       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+                 from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+                 from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+                 from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:11[m[K,
+                 from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = nav2_custom_planner::CustomPlanner; B = nav2_core::GlobalPlanner][m[K’:
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:18:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’:
+   18 | class [01;36m[KCustomPlanner[m[K : public nav2_core::GlobalPlanner
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:11[m[K,
+                 from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:76:31:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual nav_msgs::msg::Path nav2_core::GlobalPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+   76 |   virtual nav_msgs::msg::Path [01;36m[KcreatePlan[m[K(
+      |                               [01;36m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

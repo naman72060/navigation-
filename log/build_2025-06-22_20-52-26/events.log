@@ -1,0 +1,310 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (auto_explo) JobQueued: {'identifier': 'auto_explo', 'dependencies': OrderedDict()}
+[0.000279] (explore_lite) JobQueued: {'identifier': 'explore_lite', 'dependencies': OrderedDict()}
+[0.000289] (auto_explo) JobStarted: {'identifier': 'auto_explo'}
+[0.008225] (explore_lite) JobStarted: {'identifier': 'explore_lite'}
+[0.012262] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'cmake'}
+[0.013349] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'build'}
+[0.014035] (auto_explo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/naman72060/ros2_wsn/build/auto_explo', '--', '-j12', '-l12'], 'cwd': '/home/naman72060/ros2_wsn/build/auto_explo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naman72060/ros2_wsn/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/1552_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '960723a7-526a-4b21-abab-c1a6ca50ffee'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/auto_explo'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.018278] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'cmake'}
+[0.020182] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '/home/naman72060/ros2_wsn/src/explore', '-DCMAKE_INSTALL_PREFIX=/home/naman72060/ros2_wsn/install/explore_lite'], 'cwd': '/home/naman72060/ros2_wsn/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naman72060/ros2_wsn/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/1552_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '960723a7-526a-4b21-abab-c1a6ca50ffee'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/explore_lite'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.078716] (auto_explo) CommandEnded: {'returncode': 0}
+[0.079637] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'install'}
+[0.086157] (auto_explo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/naman72060/ros2_wsn/build/auto_explo'], 'cwd': '/home/naman72060/ros2_wsn/build/auto_explo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naman72060/ros2_wsn/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/1552_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '960723a7-526a-4b21-abab-c1a6ca50ffee'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/auto_explo'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[0.090694] (auto_explo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.091197] (auto_explo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.092035] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch/explore.launch.py\n'}
+[0.092223] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch/slam.launch.py\n'}
+[0.093025] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/explore.yaml\n'}
+[0.093081] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//config/slam.yaml\n'}
+[0.093451] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//rviz/explore.rviz\n'}
+[0.093537] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/package_run_dependencies/auto_explo\n'}
+[0.094307] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/parent_prefix_path/auto_explo\n'}
+[0.094607] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.sh\n'}
+[0.095132] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.dsv\n'}
+[0.095445] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.sh\n'}
+[0.095797] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.dsv\n'}
+[0.096068] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.bash\n'}
+[0.096306] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.sh\n'}
+[0.096570] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.zsh\n'}
+[0.096804] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.dsv\n'}
+[0.096953] (auto_explo) StdoutLine: {'line': b'-- Symlinking: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.dsv\n'}
+[0.099298] (-) TimerEvent: {}
+[0.105186] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/packages/auto_explo\n'}
+[0.105493] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig.cmake\n'}
+[0.105856] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig-version.cmake\n'}
+[0.106142] (auto_explo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.xml\n'}
+[0.107296] (auto_explo) CommandEnded: {'returncode': 0}
+[0.125340] (auto_explo) JobEnded: {'identifier': 'auto_explo', 'rc': 0}
+[0.199411] (-) TimerEvent: {}
+[0.268858] (explore_lite) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299538] (-) TimerEvent: {}
+[0.399841] (-) TimerEvent: {}
+[0.500170] (-) TimerEvent: {}
+[0.592609] (explore_lite) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.600276] (-) TimerEvent: {}
+[0.700563] (-) TimerEvent: {}
+[0.738105] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.800689] (-) TimerEvent: {}
+[0.819934] (explore_lite) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.824039] (explore_lite) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.825672] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.826332] (explore_lite) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.828715] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.900798] (-) TimerEvent: {}
+[0.910975] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.914657] (explore_lite) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.914986] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.915068] (explore_lite) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.915407] (explore_lite) StdoutLine: {'line': b'-- BuilD for ROS2: humble\n'}
+[0.926231] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.000984] (-) TimerEvent: {}
+[1.028164] (explore_lite) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.101128] (-) TimerEvent: {}
+[1.101319] (explore_lite) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.201269] (-) TimerEvent: {}
+[1.201691] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.207058] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.215042] (explore_lite) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.227037] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.240728] (explore_lite) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.282680] (explore_lite) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.285208] (explore_lite) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[1.301368] (-) TimerEvent: {}
+[1.306501] (explore_lite) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[1.315750] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.401508] (-) TimerEvent: {}
+[1.469006] (explore_lite) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.469135] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.501766] (-) TimerEvent: {}
+[1.549201] (explore_lite) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.549847] (explore_lite) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.594889] (explore_lite) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.601825] (-) TimerEvent: {}
+[1.621190] (explore_lite) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.13 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.701956] (-) TimerEvent: {}
+[1.702472] (explore_lite) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.13 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.729117] (explore_lite) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.730365] (explore_lite) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.730450] (explore_lite) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.732317] (explore_lite) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[1.767020] (explore_lite) StdoutLine: {'line': b'-- Found map_msgs: 2.1.0 (/opt/ros/humble/share/map_msgs/cmake)\n'}
+[1.781920] (explore_lite) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.800717] (explore_lite) StdoutLine: {'line': b'-- Found nav2_costmap_2d: 1.1.18 (/opt/ros/humble/share/nav2_costmap_2d/cmake)\n'}
+[1.802055] (-) TimerEvent: {}
+[1.902323] (-) TimerEvent: {}
+[2.002688] (-) TimerEvent: {}
+[2.103013] (-) TimerEvent: {}
+[2.203309] (-) TimerEvent: {}
+[2.303627] (-) TimerEvent: {}
+[2.404106] (-) TimerEvent: {}
+[2.504450] (-) TimerEvent: {}
+[2.604806] (-) TimerEvent: {}
+[2.705267] (-) TimerEvent: {}
+[2.710611] (explore_lite) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.767089] (explore_lite) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.770301] (explore_lite) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.779928] (explore_lite) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.780128] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/naman72060/ros2_wsn/src/explore/include;$<BUILD_INTERFACE:/home/naman72060/ros2_wsn/src/explore/include>\n'}
+[2.780173] (explore_lite) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.780947] (explore_lite) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.781855] (explore_lite) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.782445] (explore_lite) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.783440] (explore_lite) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.783488] (explore_lite) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.783970] (explore_lite) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.785891] (explore_lite) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.805416] (-) TimerEvent: {}
+[2.876006] (explore_lite) StdoutLine: {'line': b'-- Generating done\n'}
+[2.883675] (explore_lite) StdoutLine: {'line': b'-- Build files have been written to: /home/naman72060/ros2_wsn/build/explore_lite\n'}
+[2.891358] (explore_lite) CommandEnded: {'returncode': 0}
+[2.891936] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'build'}
+[2.892815] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/naman72060/ros2_wsn/build/explore_lite', '--', '-j12', '-l12'], 'cwd': '/home/naman72060/ros2_wsn/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naman72060/ros2_wsn/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/1552_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '960723a7-526a-4b21-abab-c1a6ca50ffee'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/explore_lite'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[2.905648] (-) TimerEvent: {}
+[2.925356] (explore_lite) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[2.925654] (explore_lite) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[2.935427] (explore_lite) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/explore.cpp.o\x1b[0m\n'}
+[2.935704] (explore_lite) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/costmap_client.cpp.o\x1b[0m\n'}
+[2.939268] (explore_lite) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/explore.dir/src/frontier_search.cpp.o\x1b[0m\n'}
+[3.005917] (-) TimerEvent: {}
+[3.106342] (-) TimerEvent: {}
+[3.206797] (-) TimerEvent: {}
+[3.307215] (-) TimerEvent: {}
+[3.407649] (-) TimerEvent: {}
+[3.508096] (-) TimerEvent: {}
+[3.603215] (explore_lite) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[3.608425] (-) TimerEvent: {}
+[3.643084] (explore_lite) StdoutLine: {'line': b'[ 60%] Built target gtest_main\n'}
+[3.708620] (-) TimerEvent: {}
+[3.809175] (-) TimerEvent: {}
+[3.909798] (-) TimerEvent: {}
+[4.010205] (-) TimerEvent: {}
+[4.110665] (-) TimerEvent: {}
+[4.211064] (-) TimerEvent: {}
+[4.311624] (-) TimerEvent: {}
+[4.412079] (-) TimerEvent: {}
+[4.512579] (-) TimerEvent: {}
+[4.613048] (-) TimerEvent: {}
+[4.713532] (-) TimerEvent: {}
+[4.814142] (-) TimerEvent: {}
+[4.914691] (-) TimerEvent: {}
+[5.015215] (-) TimerEvent: {}
+[5.115689] (-) TimerEvent: {}
+[5.216175] (-) TimerEvent: {}
+[5.316604] (-) TimerEvent: {}
+[5.416982] (-) TimerEvent: {}
+[5.517440] (-) TimerEvent: {}
+[5.617967] (-) TimerEvent: {}
+[5.718440] (-) TimerEvent: {}
+[5.818909] (-) TimerEvent: {}
+[5.882691] (explore_lite) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[5.919181] (-) TimerEvent: {}
+[5.938904] (explore_lite) StdoutLine: {'line': b'[ 70%] Built target gtest\n'}
+[5.965167] (explore_lite) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/test_explore.dir/test/test_explore.cpp.o\x1b[0m\n'}
+[6.019389] (-) TimerEvent: {}
+[6.119883] (-) TimerEvent: {}
+[6.220546] (-) TimerEvent: {}
+[6.321092] (-) TimerEvent: {}
+[6.421588] (-) TimerEvent: {}
+[6.522091] (-) TimerEvent: {}
+[6.622550] (-) TimerEvent: {}
+[6.722956] (-) TimerEvent: {}
+[6.823363] (-) TimerEvent: {}
+[6.923851] (-) TimerEvent: {}
+[7.024374] (-) TimerEvent: {}
+[7.124856] (-) TimerEvent: {}
+[7.138201] (explore_lite) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable test_explore\x1b[0m\n'}
+[7.225033] (-) TimerEvent: {}
+[7.325543] (-) TimerEvent: {}
+[7.426044] (-) TimerEvent: {}
+[7.526461] (-) TimerEvent: {}
+[7.626982] (-) TimerEvent: {}
+[7.727566] (-) TimerEvent: {}
+[7.828131] (-) TimerEvent: {}
+[7.928696] (-) TimerEvent: {}
+[8.029232] (-) TimerEvent: {}
+[8.129839] (-) TimerEvent: {}
+[8.230360] (-) TimerEvent: {}
+[8.273119] (explore_lite) StdoutLine: {'line': b'[ 90%] Built target test_explore\n'}
+[8.330538] (-) TimerEvent: {}
+[8.431072] (-) TimerEvent: {}
+[8.531558] (-) TimerEvent: {}
+[8.632147] (-) TimerEvent: {}
+[8.732754] (-) TimerEvent: {}
+[8.833357] (-) TimerEvent: {}
+[8.934051] (-) TimerEvent: {}
+[9.034661] (-) TimerEvent: {}
+[9.135056] (-) TimerEvent: {}
+[9.235646] (-) TimerEvent: {}
+[9.336158] (-) TimerEvent: {}
+[9.436788] (-) TimerEvent: {}
+[9.537407] (-) TimerEvent: {}
+[9.638078] (-) TimerEvent: {}
+[9.738704] (-) TimerEvent: {}
+[9.839374] (-) TimerEvent: {}
+[9.939965] (-) TimerEvent: {}
+[10.040548] (-) TimerEvent: {}
+[10.141110] (-) TimerEvent: {}
+[10.241913] (-) TimerEvent: {}
+[10.342610] (-) TimerEvent: {}
+[10.443171] (-) TimerEvent: {}
+[10.543835] (-) TimerEvent: {}
+[10.644405] (-) TimerEvent: {}
+[10.745036] (-) TimerEvent: {}
+[10.845645] (-) TimerEvent: {}
+[10.946200] (-) TimerEvent: {}
+[11.046990] (-) TimerEvent: {}
+[11.147649] (-) TimerEvent: {}
+[11.248260] (-) TimerEvent: {}
+[11.348866] (-) TimerEvent: {}
+[11.449573] (-) TimerEvent: {}
+[11.550213] (-) TimerEvent: {}
+[11.650821] (-) TimerEvent: {}
+[11.751435] (-) TimerEvent: {}
+[11.852058] (-) TimerEvent: {}
+[11.952644] (-) TimerEvent: {}
+[12.053220] (-) TimerEvent: {}
+[12.153582] (-) TimerEvent: {}
+[12.254063] (-) TimerEvent: {}
+[12.354672] (-) TimerEvent: {}
+[12.455276] (-) TimerEvent: {}
+[12.555928] (-) TimerEvent: {}
+[12.656556] (-) TimerEvent: {}
+[12.761058] (-) TimerEvent: {}
+[12.861596] (-) TimerEvent: {}
+[12.962145] (-) TimerEvent: {}
+[13.062763] (-) TimerEvent: {}
+[13.163341] (-) TimerEvent: {}
+[13.263698] (-) TimerEvent: {}
+[13.364107] (-) TimerEvent: {}
+[13.464728] (-) TimerEvent: {}
+[13.565330] (-) TimerEvent: {}
+[13.665999] (-) TimerEvent: {}
+[13.766586] (-) TimerEvent: {}
+[13.867163] (-) TimerEvent: {}
+[13.967636] (-) TimerEvent: {}
+[14.068311] (-) TimerEvent: {}
+[14.168922] (-) TimerEvent: {}
+[14.269512] (-) TimerEvent: {}
+[14.369922] (-) TimerEvent: {}
+[14.466108] (explore_lite) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable explore\x1b[0m\n'}
+[14.470023] (-) TimerEvent: {}
+[14.570501] (-) TimerEvent: {}
+[14.671053] (-) TimerEvent: {}
+[14.771486] (-) TimerEvent: {}
+[14.871983] (-) TimerEvent: {}
+[14.972445] (-) TimerEvent: {}
+[15.072822] (-) TimerEvent: {}
+[15.173237] (-) TimerEvent: {}
+[15.273693] (-) TimerEvent: {}
+[15.374269] (-) TimerEvent: {}
+[15.475041] (-) TimerEvent: {}
+[15.575489] (-) TimerEvent: {}
+[15.676089] (-) TimerEvent: {}
+[15.776597] (-) TimerEvent: {}
+[15.877229] (-) TimerEvent: {}
+[15.977892] (-) TimerEvent: {}
+[16.078344] (-) TimerEvent: {}
+[16.100777] (explore_lite) StdoutLine: {'line': b'[100%] Built target explore\n'}
+[16.110635] (explore_lite) CommandEnded: {'returncode': 0}
+[16.111360] (explore_lite) JobProgress: {'identifier': 'explore_lite', 'progress': 'install'}
+[16.112213] (explore_lite) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/naman72060/ros2_wsn/build/explore_lite'], 'cwd': '/home/naman72060/ros2_wsn/build/explore_lite', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/naman72060/ros2_wsn/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/1552_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '960723a7-526a-4b21-abab-c1a6ca50ffee'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/explore_lite'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/naman72060/ros2_wsn/install/auto_explo:/opt/ros/humble'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[16.118081] (explore_lite) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.118322] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore/\n'}
+[16.118731] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//explore.h:Zone.Identifier\n'}
+[16.118875] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_tools.h\n'}
+[16.119098] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_client.h\n'}
+[16.119332] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_tools.h:Zone.Identifier\n'}
+[16.119479] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//frontier_search.h\n'}
+[16.119521] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//frontier_search.h:Zone.Identifier\n'}
+[16.119554] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//costmap_client.h:Zone.Identifier\n'}
+[16.119592] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/include/explore//explore.h\n'}
+[16.119746] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config\n'}
+[16.119802] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params.yaml\n'}
+[16.120010] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params_costmap.yaml\n'}
+[16.120160] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params_costmap.yaml:Zone.Identifier\n'}
+[16.120237] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/config/params.yaml:Zone.Identifier\n'}
+[16.120309] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/launch\n'}
+[16.120545] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/launch/explore.launch.py:Zone.Identifier\n'}
+[16.120735] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/launch/explore.launch.py\n'}
+[16.120864] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/lib/explore_lite/explore\n'}
+[16.125811] (explore_lite) StdoutLine: {'line': b'-- Set runtime path of "/home/naman72060/ros2_wsn/install/explore_lite/lib/explore_lite/explore" to ""\n'}
+[16.126310] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/ament_index/resource_index/package_run_dependencies/explore_lite\n'}
+[16.126562] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/ament_index/resource_index/parent_prefix_path/explore_lite\n'}
+[16.126707] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/ament_prefix_path.sh\n'}
+[16.126832] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/ament_prefix_path.dsv\n'}
+[16.126968] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/path.sh\n'}
+[16.127359] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/environment/path.dsv\n'}
+[16.127436] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.bash\n'}
+[16.127470] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.sh\n'}
+[16.127499] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.zsh\n'}
+[16.127526] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/local_setup.dsv\n'}
+[16.127667] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.dsv\n'}
+[16.127723] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/ament_index/resource_index/packages/explore_lite\n'}
+[16.128043] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.128277] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/cmake/explore_liteConfig.cmake\n'}
+[16.128510] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/cmake/explore_liteConfig-version.cmake\n'}
+[16.128587] (explore_lite) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.xml\n'}
+[16.130287] (explore_lite) CommandEnded: {'returncode': 0}
+[16.138304] (explore_lite) JobEnded: {'identifier': 'explore_lite', 'rc': 0}
+[16.139621] (-) EventReactorShutdown: {}

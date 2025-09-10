@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000888] (auto_explo) JobQueued: {'identifier': 'auto_explo', 'dependencies': OrderedDict()}
+[0.000985] (auto_explo) JobStarted: {'identifier': 'auto_explo'}
+[0.010071] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'cmake'}
+[0.011436] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'build'}
+[0.011511] (auto_explo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/naman72060/ros2_wsn/build/auto_explo', '--', '-j12', '-l12'], 'cwd': '/home/naman72060/ros2_wsn/build/auto_explo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/2584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '00e4a7ee-3417-4fa4-9567-2bd4bd4479c1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/auto_explo'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058804] (auto_explo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target wfd_node\x1b[0m\n'}
+[0.075211] (auto_explo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wfd_node.dir/src/wfd_node.cpp.o\x1b[0m\n'}
+[0.099379] (-) TimerEvent: {}
+[0.199800] (-) TimerEvent: {}
+[0.300242] (-) TimerEvent: {}
+[0.400613] (-) TimerEvent: {}
+[0.501084] (-) TimerEvent: {}
+[0.601624] (-) TimerEvent: {}
+[0.702181] (-) TimerEvent: {}
+[0.802572] (-) TimerEvent: {}
+[0.902951] (-) TimerEvent: {}
+[1.003486] (-) TimerEvent: {}
+[1.104007] (-) TimerEvent: {}
+[1.204495] (-) TimerEvent: {}
+[1.304969] (-) TimerEvent: {}
+[1.405497] (-) TimerEvent: {}
+[1.505870] (-) TimerEvent: {}
+[1.606377] (-) TimerEvent: {}
+[1.706841] (-) TimerEvent: {}
+[1.807288] (-) TimerEvent: {}
+[1.907903] (-) TimerEvent: {}
+[2.008867] (-) TimerEvent: {}
+[2.109327] (-) TimerEvent: {}
+[2.209845] (-) TimerEvent: {}
+[2.310198] (-) TimerEvent: {}
+[2.410704] (-) TimerEvent: {}
+[2.511180] (-) TimerEvent: {}
+[2.611702] (-) TimerEvent: {}
+[2.712207] (-) TimerEvent: {}
+[2.812663] (-) TimerEvent: {}
+[2.913174] (-) TimerEvent: {}
+[3.013572] (-) TimerEvent: {}
+[3.113969] (-) TimerEvent: {}
+[3.214422] (-) TimerEvent: {}
+[3.314968] (-) TimerEvent: {}
+[3.415574] (-) TimerEvent: {}
+[3.516003] (-) TimerEvent: {}
+[3.616595] (-) TimerEvent: {}
+[3.717117] (-) TimerEvent: {}
+[3.817824] (-) TimerEvent: {}
+[3.918334] (-) TimerEvent: {}
+[4.019100] (-) TimerEvent: {}
+[4.119517] (-) TimerEvent: {}
+[4.219923] (-) TimerEvent: {}
+[4.320336] (-) TimerEvent: {}
+[4.420977] (-) TimerEvent: {}
+[4.521559] (-) TimerEvent: {}
+[4.622044] (-) TimerEvent: {}
+[4.722482] (-) TimerEvent: {}
+[4.822981] (-) TimerEvent: {}
+[4.923562] (-) TimerEvent: {}
+[5.024157] (-) TimerEvent: {}
+[5.124721] (-) TimerEvent: {}
+[5.226870] (-) TimerEvent: {}
+[5.327471] (-) TimerEvent: {}
+[5.427983] (-) TimerEvent: {}
+[5.528468] (-) TimerEvent: {}
+[5.628928] (-) TimerEvent: {}
+[5.729516] (-) TimerEvent: {}
+[5.830076] (-) TimerEvent: {}
+[5.930683] (-) TimerEvent: {}
+[6.031183] (-) TimerEvent: {}
+[6.131595] (-) TimerEvent: {}
+[6.232032] (-) TimerEvent: {}
+[6.332431] (-) TimerEvent: {}
+[6.432923] (-) TimerEvent: {}
+[6.533339] (-) TimerEvent: {}
+[6.633829] (-) TimerEvent: {}
+[6.734261] (-) TimerEvent: {}
+[6.834794] (-) TimerEvent: {}
+[6.935402] (-) TimerEvent: {}
+[7.035936] (-) TimerEvent: {}
+[7.136330] (-) TimerEvent: {}
+[7.236812] (-) TimerEvent: {}
+[7.337440] (-) TimerEvent: {}
+[7.437926] (-) TimerEvent: {}
+[7.538463] (-) TimerEvent: {}
+[7.638902] (-) TimerEvent: {}
+[7.739363] (-) TimerEvent: {}
+[7.839835] (-) TimerEvent: {}
+[7.940241] (-) TimerEvent: {}
+[8.040653] (-) TimerEvent: {}
+[8.141132] (-) TimerEvent: {}
+[8.241607] (-) TimerEvent: {}
+[8.341970] (-) TimerEvent: {}
+[8.442343] (-) TimerEvent: {}
+[8.542793] (-) TimerEvent: {}
+[8.643361] (-) TimerEvent: {}
+[8.744025] (-) TimerEvent: {}
+[8.844500] (-) TimerEvent: {}
+[8.945025] (-) TimerEvent: {}
+[9.045576] (-) TimerEvent: {}
+[9.146081] (-) TimerEvent: {}
+[9.246607] (-) TimerEvent: {}
+[9.347081] (-) TimerEvent: {}
+[9.447525] (-) TimerEvent: {}
+[9.547992] (-) TimerEvent: {}
+[9.648416] (-) TimerEvent: {}
+[9.748890] (-) TimerEvent: {}
+[9.849341] (-) TimerEvent: {}
+[9.949836] (-) TimerEvent: {}
+[10.050217] (-) TimerEvent: {}
+[10.150654] (-) TimerEvent: {}
+[10.251153] (-) TimerEvent: {}
+[10.351798] (-) TimerEvent: {}
+[10.452268] (-) TimerEvent: {}
+[10.552758] (-) TimerEvent: {}
+[10.653193] (-) TimerEvent: {}
+[10.753615] (-) TimerEvent: {}
+[10.782400] (auto_explo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable wfd_node\x1b[0m\n'}
+[10.853763] (-) TimerEvent: {}
+[10.954225] (-) TimerEvent: {}
+[11.054827] (-) TimerEvent: {}
+[11.155258] (-) TimerEvent: {}
+[11.255694] (-) TimerEvent: {}
+[11.356123] (-) TimerEvent: {}
+[11.421659] (auto_explo) StdoutLine: {'line': b'[100%] Built target wfd_node\n'}
+[11.439128] (auto_explo) CommandEnded: {'returncode': 0}
+[11.440166] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'install'}
+[11.449705] (auto_explo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/naman72060/ros2_wsn/build/auto_explo'], 'cwd': '/home/naman72060/ros2_wsn/build/auto_explo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/2584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '00e4a7ee-3417-4fa4-9567-2bd4bd4479c1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/auto_explo'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.456328] (-) TimerEvent: {}
+[11.458440] (auto_explo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.458974] (auto_explo) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/auto_explo/lib/auto_explo/wfd_node\n'}
+[11.461717] (auto_explo) StdoutLine: {'line': b'-- Set runtime path of "/home/naman72060/ros2_wsn/install/auto_explo/lib/auto_explo/wfd_node" to ""\n'}
+[11.462186] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch\n'}
+[11.462369] (auto_explo) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo//launch/online_async_launch.launch.py\n'}
+[11.462581] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/package_run_dependencies/auto_explo\n'}
+[11.462705] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/parent_prefix_path/auto_explo\n'}
+[11.462826] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.sh\n'}
+[11.462890] (auto_explo) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/ament_prefix_path.dsv\n'}
+[11.463005] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.sh\n'}
+[11.463150] (auto_explo) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/environment/path.dsv\n'}
+[11.463514] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.bash\n'}
+[11.463647] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.sh\n'}
+[11.463959] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.zsh\n'}
+[11.464112] (auto_explo) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/local_setup.dsv\n'}
+[11.464247] (auto_explo) StdoutLine: {'line': b'-- Installing: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.dsv\n'}
+[11.464827] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/ament_index/resource_index/packages/auto_explo\n'}
+[11.464942] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig.cmake\n'}
+[11.465020] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/cmake/auto_exploConfig-version.cmake\n'}
+[11.465088] (auto_explo) StdoutLine: {'line': b'-- Up-to-date: /home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.xml\n'}
+[11.466944] (auto_explo) CommandEnded: {'returncode': 0}
+[11.484493] (auto_explo) JobEnded: {'identifier': 'auto_explo', 'rc': 0}
+[11.485746] (-) EventReactorShutdown: {}

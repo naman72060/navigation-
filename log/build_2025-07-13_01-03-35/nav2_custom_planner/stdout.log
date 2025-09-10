@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_custom_planner_plugin[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnav2_custom_planner_plugin.so[0m
+[100%] Built target nav2_custom_planner_plugin
+-- Install configuration: ""
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/gobal_planner_plugin.xml
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so
+-- Set runtime path of "/home/naman72060/ros2_wsn/install/nav2_custom_planner/lib/libnav2_custom_planner_plugin.so" to ""
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/include
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/include/nav2_custom_planner
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp

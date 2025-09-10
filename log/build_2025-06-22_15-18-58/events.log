@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.001496] (auto_explo) JobQueued: {'identifier': 'auto_explo', 'dependencies': OrderedDict()}
+[0.001547] (auto_explo) JobStarted: {'identifier': 'auto_explo'}
+[0.012646] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'cmake'}
+[0.013293] (auto_explo) JobProgress: {'identifier': 'auto_explo', 'progress': 'build'}
+[0.014388] (auto_explo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/naman72060/ros2_wsn/build/auto_explo', '--', '-j12', '-l12'], 'cwd': '/home/naman72060/ros2_wsn/build/auto_explo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'naman72060'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/naman72060'), ('OLDPWD', '/home/naman72060'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'naman72060'), ('NAME', 'BOOK-C8ISHJI1JS'), ('WSL_INTEROP', '/run/WSL/2584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/naman72060/.local/bin:/opt/ros/humble/bin:/home/naman72060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/110/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/120/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/MinGW/bin:/mnt/c/Program Files/MATLAB/R2020a/runtime/win64:/mnt/c/Program Files/MATLAB/R2020a/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/Naman Jain/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Naman Jain/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/MinGW/bin:/snap/bin'), ('WT_SESSION', '00e4a7ee-3417-4fa4-9567-2bd4bd4479c1'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/naman72060/ros2_wsn/build/auto_explo'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.044082] (auto_explo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099468] (-) TimerEvent: {}
+[0.199931] (-) TimerEvent: {}
+[0.213514] (auto_explo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.300128] (-) TimerEvent: {}
+[0.400631] (-) TimerEvent: {}
+[0.501054] (-) TimerEvent: {}
+[0.579733] (auto_explo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.591783] (auto_explo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.601202] (-) TimerEvent: {}
+[0.608701] (auto_explo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.634955] (auto_explo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.665436] (auto_explo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.701374] (-) TimerEvent: {}
+[0.750553] (auto_explo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.757659] (auto_explo) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.801560] (-) TimerEvent: {}
+[0.804026] (auto_explo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.824746] (auto_explo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901692] (-) TimerEvent: {}
+[1.002021] (-) TimerEvent: {}
+[1.102390] (-) TimerEvent: {}
+[1.202826] (-) TimerEvent: {}
+[1.228055] (auto_explo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.228972] (auto_explo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.302968] (-) TimerEvent: {}
+[1.403364] (-) TimerEvent: {}
+[1.443417] (auto_explo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.444393] (auto_explo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.503583] (-) TimerEvent: {}
+[1.548146] (auto_explo) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.603752] (-) TimerEvent: {}
+[1.606704] (auto_explo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.702798] (auto_explo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.702967] (auto_explo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.703014] (auto_explo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.703919] (auto_explo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.704044] (-) TimerEvent: {}
+[1.704394] (auto_explo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.705163] (auto_explo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.705973] (auto_explo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.706068] (auto_explo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.706955] (auto_explo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.709118] (auto_explo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.723490] (auto_explo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.728214] (auto_explo) StdoutLine: {'line': b'-- Build files have been written to: /home/naman72060/ros2_wsn/build/auto_explo\n'}
+[1.767707] (auto_explo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wfd_node.dir/src/wfd_node.cpp.o\x1b[0m\n'}
+[1.804322] (-) TimerEvent: {}
+[1.904865] (-) TimerEvent: {}
+[2.005261] (-) TimerEvent: {}
+[2.105684] (-) TimerEvent: {}
+[2.206090] (-) TimerEvent: {}
+[2.306569] (-) TimerEvent: {}
+[2.407039] (-) TimerEvent: {}
+[2.507483] (-) TimerEvent: {}
+[2.607907] (-) TimerEvent: {}
+[2.708348] (-) TimerEvent: {}
+[2.808689] (-) TimerEvent: {}
+[2.909135] (-) TimerEvent: {}
+[3.009704] (-) TimerEvent: {}
+[3.110169] (-) TimerEvent: {}
+[3.210617] (-) TimerEvent: {}
+[3.311221] (-) TimerEvent: {}
+[3.411687] (-) TimerEvent: {}
+[3.512042] (-) TimerEvent: {}
+[3.612472] (-) TimerEvent: {}
+[3.712993] (-) TimerEvent: {}
+[3.813555] (-) TimerEvent: {}
+[3.914111] (-) TimerEvent: {}
+[4.014573] (-) TimerEvent: {}
+[4.115005] (-) TimerEvent: {}
+[4.215418] (-) TimerEvent: {}
+[4.315959] (-) TimerEvent: {}
+[4.416413] (-) TimerEvent: {}
+[4.516768] (-) TimerEvent: {}
+[4.617150] (-) TimerEvent: {}
+[4.717629] (-) TimerEvent: {}
+[4.818187] (-) TimerEvent: {}
+[4.918603] (-) TimerEvent: {}
+[5.019065] (-) TimerEvent: {}
+[5.119587] (-) TimerEvent: {}
+[5.220056] (-) TimerEvent: {}
+[5.320632] (-) TimerEvent: {}
+[5.421165] (-) TimerEvent: {}
+[5.521574] (-) TimerEvent: {}
+[5.622007] (-) TimerEvent: {}
+[5.722543] (-) TimerEvent: {}
+[5.740271] (auto_explo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/naman72060/ros2_wsn/src/auto_explo/src/wfd_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.740727] (auto_explo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/naman72060/ros2_wsn/src/auto_explo/src/wfd_node.cpp:87:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclpy\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[5.740801] (auto_explo) StderrLine: {'line': b'   87 |   \x1b[01;31m\x1b[Krclpy\x1b[m\x1b[K::init(argc, argv);\n'}
+[5.740841] (auto_explo) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[5.822722] (-) TimerEvent: {}
+[5.923302] (-) TimerEvent: {}
+[6.023772] (-) TimerEvent: {}
+[6.124225] (-) TimerEvent: {}
+[6.224655] (-) TimerEvent: {}
+[6.325159] (-) TimerEvent: {}
+[6.425727] (-) TimerEvent: {}
+[6.526178] (-) TimerEvent: {}
+[6.626639] (-) TimerEvent: {}
+[6.727123] (-) TimerEvent: {}
+[6.827552] (-) TimerEvent: {}
+[6.928087] (-) TimerEvent: {}
+[7.028693] (-) TimerEvent: {}
+[7.129257] (-) TimerEvent: {}
+[7.229803] (-) TimerEvent: {}
+[7.330213] (-) TimerEvent: {}
+[7.430651] (-) TimerEvent: {}
+[7.531103] (-) TimerEvent: {}
+[7.631517] (-) TimerEvent: {}
+[7.732004] (-) TimerEvent: {}
+[7.832526] (-) TimerEvent: {}
+[7.933061] (-) TimerEvent: {}
+[8.033586] (-) TimerEvent: {}
+[8.134035] (-) TimerEvent: {}
+[8.234562] (-) TimerEvent: {}
+[8.335019] (-) TimerEvent: {}
+[8.435586] (-) TimerEvent: {}
+[8.536031] (-) TimerEvent: {}
+[8.636603] (-) TimerEvent: {}
+[8.737021] (-) TimerEvent: {}
+[8.837974] (-) TimerEvent: {}
+[8.939186] (-) TimerEvent: {}
+[9.039723] (-) TimerEvent: {}
+[9.140198] (-) TimerEvent: {}
+[9.158504] (auto_explo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/wfd_node.dir/build.make:76: CMakeFiles/wfd_node.dir/src/wfd_node.cpp.o] Error 1\n'}
+[9.158766] (auto_explo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wfd_node.dir/all] Error 2\n'}
+[9.158994] (auto_explo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.161704] (auto_explo) CommandEnded: {'returncode': 2}
+[9.179690] (auto_explo) JobEnded: {'identifier': 'auto_explo', 'rc': 2}
+[9.181955] (-) EventReactorShutdown: {}

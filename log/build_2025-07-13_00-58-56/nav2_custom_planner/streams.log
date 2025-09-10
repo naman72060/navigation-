@@ -1,0 +1,56 @@
+[0.014s] Invoking command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12
+[0.034s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.379s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.380s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.411s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.412s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.421s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.451s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.462s] -- Found nav2_core: 1.1.18 (/opt/ros/humble/share/nav2_core/cmake)
+[0.573s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.967s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.031s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.031s] -- Configured cppcheck include dirs: /home/naman72060/ros2_wsn/src/nav2_custom_planner/include
+[3.031s] -- Configured cppcheck exclude dirs and/or files: 
+[3.033s] -- Added test 'lint_cmake' to check CMake code style
+[3.035s] -- Added test 'uncrustify' to check C / C++ code style
+[3.035s] -- Configured uncrustify additional arguments: 
+[3.036s] -- Added test 'xmllint' to check XML markup files
+[3.039s] -- Configuring done
+[3.243s] -- Generating done
+[3.250s] -- Build files have been written to: /home/naman72060/ros2_wsn/build/nav2_custom_planner
+[3.273s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o[0m
+[6.186s] In file included from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[6.186s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::msg::Path nav2_custom_planner::CustomPlanner::createPlan(const PoseStamped&, const PoseStamped&, std::function<bool()>)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[6.186s]    36 |   nav_msgs::msg::Path [01;31m[KcreatePlan[m[K(
+[6.186s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[7.199s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[7.199s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[7.199s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[7.200s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[7.200s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+[7.200s]                  from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+[7.200s]                  from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:11[m[K,
+[7.200s]                  from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[7.200s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = nav2_custom_planner::CustomPlanner; B = nav2_core::GlobalPlanner][m[K’:
+[7.200s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[7.200s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’
+[7.200s]   218 |     return [01;31m[Knew C[m[K;
+[7.200s]       |            [01;31m[K^~~~~[m[K
+[7.200s] In file included from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[7.200s] [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:18:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Knav2_custom_planner::CustomPlanner[m[K’:
+[7.200s]    18 | class [01;36m[KCustomPlanner[m[K : public nav2_core::GlobalPlanner
+[7.200s]       |       [01;36m[K^~~~~~~~~~~~~[m[K
+[7.200s] In file included from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/include/nav2_custom_planner/custom_planner.hpp:11[m[K,
+[7.200s]                  from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[7.200s] [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:76:31:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual nav_msgs::msg::Path nav2_core::GlobalPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+[7.200s]    76 |   virtual nav_msgs::msg::Path [01;36m[KcreatePlan[m[K(
+[7.200s]       |                               [01;36m[K^~~~~~~~~~[m[K
+[7.304s] gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o] Error 1
+[7.304s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+[7.304s] gmake: *** [Makefile:146: all] Error 2
+[7.306s] Invoked command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12

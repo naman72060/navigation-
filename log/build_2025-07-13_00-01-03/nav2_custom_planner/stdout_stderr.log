@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/naman72060/ros2_wsn/build/nav2_custom_planner
+-- Install configuration: ""
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/ament_index/resource_index/package_run_dependencies/nav2_custom_planner
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/ament_index/resource_index/parent_prefix_path/nav2_custom_planner
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.sh
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.sh
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/environment/path.dsv
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.bash
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.sh
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.zsh
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/local_setup.dsv
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/ament_index/resource_index/packages/nav2_custom_planner
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig.cmake
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/cmake/nav2_custom_plannerConfig-version.cmake
+-- Installing: /home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/package.xml

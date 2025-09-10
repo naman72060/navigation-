@@ -1,0 +1,50 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o[0m
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:199:3:[m[K [01;31m[Kerror: [m[K‘[01m[KNode[m[K’ does not name a type
+  199 |   [01;31m[KNode[m[K* node_ptr = final_node;
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:200:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  200 |   [01;31m[Kwhile[m[K (node_ptr) {
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:219:15:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  219 |   std::reverse[01;31m[K([m[Kpath_poses.begin(), path_poses.end());
+      |               [01;31m[K^[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:222:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kfor[m[K’
+  222 |   [01;31m[Kfor[m[K (size_t i = 0; i + 1 < path_poses.size(); ++i) {
+      |   [01;31m[K^~~[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:222:22:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ does not name a type
+  222 |   for (size_t i = 0; [01;31m[Ki[m[K + 1 < path_poses.size(); ++i) {
+      |                      [01;31m[K^[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:222:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K++[m[K’ token
+  222 |   for (size_t i = 0; i + 1 < path_poses.size(); [01;31m[K++[m[Ki) {
+      |                                                 [01;31m[K^~[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:231:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kglobal_path[m[K’ does not name a type
+  231 |   [01;31m[Kglobal_path[m[K.poses = path_poses;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.h:48[m[K,
+                 from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:60[m[K,
+                 from [01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:9[m[K:
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:233:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kdo[m[K’
+  233 |   [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "A* path from (%.2f, %.2f) to (%.2f, %.2f) with %zu poses.",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:233:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kwhile[m[K’
+  233 |   [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "A* path from (%.2f, %.2f) to (%.2f, %.2f) with %zu poses.",
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:238:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+  238 |   [01;31m[Kreturn[m[K global_path;
+      |   [01;31m[K^~~~~~[m[K
+[01m[K/home/naman72060/ros2_wsn/src/nav2_custom_planner/src/custom_planner.cpp:241:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  241 | [01;31m[K}[m[K  // namespace nav2_custom_planner
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/nav2_custom_planner_plugin.dir/build.make:76: CMakeFiles/nav2_custom_planner_plugin.dir/src/custom_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_custom_planner_plugin.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

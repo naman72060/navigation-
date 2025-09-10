@@ -1,0 +1,249 @@
+[0.309s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.310s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7497f6858ca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7497f6858790>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7497f6858790>>)
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.822s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/naman72060/ros2_wsn'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.838s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extensions ['ignore', 'ignore_ament_install']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extension 'ignore'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extension 'ignore_ament_install'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extensions ['colcon_pkg']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extension 'colcon_pkg'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extensions ['colcon_meta']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extension 'colcon_meta'
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extensions ['ros']
+[0.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/auto_explo) by extension 'ros'
+[0.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/auto_explo' with type 'ros.ament_cmake' and name 'auto_explo'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['ignore', 'ignore_ament_install']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'ignore'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'ignore_ament_install'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['colcon_meta']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'colcon_meta'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/explore) by extension 'ros'
+[0.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ignore_ament_install'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_pkg']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_pkg'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['colcon_meta']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'colcon_meta'
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extensions ['ros']
+[0.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_custom_planner) by extension 'ros'
+[0.846s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_custom_planner' with type 'ros.ament_cmake' and name 'nav2_custom_planner'
+[0.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.847s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.888s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.893s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 439 installed packages in /opt/ros/humble
+[0.895s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'cmake_args' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'cmake_target' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'cmake_clean_first' from command line to 'False'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'cmake_force_configure' from command line to 'False'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'ament_cmake_args' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.925s] Level 5:colcon.colcon_core.verb:set package 'auto_explo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.925s] DEBUG:colcon.colcon_core.verb:Building package 'auto_explo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naman72060/ros2_wsn/build/auto_explo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naman72060/ros2_wsn/install/auto_explo', 'merge_install': False, 'path': '/home/naman72060/ros2_wsn/src/auto_explo', 'symlink_install': False, 'test_result_base': None}
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.926s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naman72060/ros2_wsn/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naman72060/ros2_wsn/install/explore_lite', 'merge_install': False, 'path': '/home/naman72060/ros2_wsn/src/explore', 'symlink_install': False, 'test_result_base': None}
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.926s] Level 5:colcon.colcon_core.verb:set package 'nav2_custom_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.926s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_custom_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/naman72060/ros2_wsn/build/nav2_custom_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/naman72060/ros2_wsn/install/nav2_custom_planner', 'merge_install': False, 'path': '/home/naman72060/ros2_wsn/src/nav2_custom_planner', 'symlink_install': False, 'test_result_base': None}
+[0.926s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.927s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.927s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/naman72060/ros2_wsn/src/auto_explo' with build type 'ament_cmake'
+[0.927s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/naman72060/ros2_wsn/src/auto_explo'
+[0.935s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.939s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/naman72060/ros2_wsn/src/explore' with build type 'ament_cmake'
+[0.939s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/naman72060/ros2_wsn/src/explore'
+[0.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.963s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/naman72060/ros2_wsn/src/nav2_custom_planner' with build type 'ament_cmake'
+[0.963s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/naman72060/ros2_wsn/src/nav2_custom_planner'
+[0.963s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+[0.976s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naman72060/ros2_wsn/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/explore_lite -- -j12 -l12
+[0.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/auto_explo -- -j12 -l12
+[1.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naman72060/ros2_wsn/build/auto_explo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo
+[1.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_explo)
+[1.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naman72060/ros2_wsn/build/auto_explo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/auto_explo
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo' for CMake module files
+[1.130s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo' for CMake config files
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_explo', 'cmake_prefix_path')
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/hook/cmake_prefix_path.ps1'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/hook/cmake_prefix_path.dsv'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/hook/cmake_prefix_path.sh'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/lib'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/bin'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/lib/pkgconfig/auto_explo.pc'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/lib/python3.10/site-packages'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/bin'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.ps1'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.dsv'
+[1.139s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.sh'
+[1.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.bash'
+[1.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.zsh'
+[1.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naman72060/ros2_wsn/install/auto_explo/share/colcon-core/packages/auto_explo)
+[1.143s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(auto_explo)
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo' for CMake module files
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo' for CMake config files
+[1.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('auto_explo', 'cmake_prefix_path')
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/hook/cmake_prefix_path.ps1'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/hook/cmake_prefix_path.dsv'
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/hook/cmake_prefix_path.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/lib'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/bin'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/lib/pkgconfig/auto_explo.pc'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/lib/python3.10/site-packages'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/auto_explo/bin'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.ps1'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.dsv'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.sh'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.bash'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/auto_explo/share/auto_explo/package.zsh'
+[1.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naman72060/ros2_wsn/install/auto_explo/share/colcon-core/packages/auto_explo)
+[1.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naman72060/ros2_wsn/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/explore_lite -- -j12 -l12
+[1.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/naman72060/ros2_wsn/build/explore_lite': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/explore_lite
+[1.161s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite' for CMake module files
+[1.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naman72060/ros2_wsn/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/naman72060/ros2_wsn/build/explore_lite
+[1.163s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite' for CMake config files
+[1.165s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/lib'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/bin'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[1.166s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/lib/python3.10/site-packages'
+[1.167s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/bin'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.ps1'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.dsv'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.sh'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.bash'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.zsh'
+[1.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naman72060/ros2_wsn/install/explore_lite/share/colcon-core/packages/explore_lite)
+[1.169s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite' for CMake module files
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[1.170s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/lib'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/bin'
+[1.170s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/lib/python3.10/site-packages'
+[1.171s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/explore_lite/bin'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.ps1'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.dsv'
+[1.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.sh'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.bash'
+[1.172s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/explore_lite/share/explore_lite/package.zsh'
+[1.172s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naman72060/ros2_wsn/install/explore_lite/share/colcon-core/packages/explore_lite)
+[4.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/naman72060/ros2_wsn/build/nav2_custom_planner' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/naman72060/ros2_wsn/build/nav2_custom_planner -- -j12 -l12
+[4.677s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_custom_planner)
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/nav2_custom_planner' for CMake module files
+[4.679s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/nav2_custom_planner' for CMake config files
+[4.680s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_custom_planner', 'cmake_prefix_path')
+[4.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.ps1'
+[4.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.dsv'
+[4.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/hook/cmake_prefix_path.sh'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/nav2_custom_planner/bin'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/nav2_custom_planner/lib/pkgconfig/nav2_custom_planner.pc'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/nav2_custom_planner/lib/python3.10/site-packages'
+[4.681s] Level 1:colcon.colcon_core.environment:checking '/home/naman72060/ros2_wsn/install/nav2_custom_planner/bin'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/package.ps1'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/package.dsv'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/package.sh'
+[4.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/package.bash'
+[4.683s] INFO:colcon.colcon_core.shell:Creating package script '/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/nav2_custom_planner/package.zsh'
+[4.683s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/naman72060/ros2_wsn/install/nav2_custom_planner/share/colcon-core/packages/nav2_custom_planner)
+[4.693s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.694s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[4.694s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.872s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.889s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.890s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.890s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naman72060/ros2_wsn/install/local_setup.ps1'
+[4.891s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naman72060/ros2_wsn/install/_local_setup_util_ps1.py'
+[4.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naman72060/ros2_wsn/install/setup.ps1'
+[4.893s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naman72060/ros2_wsn/install/local_setup.sh'
+[4.893s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/naman72060/ros2_wsn/install/_local_setup_util_sh.py'
+[4.894s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naman72060/ros2_wsn/install/setup.sh'
+[4.895s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naman72060/ros2_wsn/install/local_setup.bash'
+[4.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naman72060/ros2_wsn/install/setup.bash'
+[4.897s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/naman72060/ros2_wsn/install/local_setup.zsh'
+[4.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/naman72060/ros2_wsn/install/setup.zsh'

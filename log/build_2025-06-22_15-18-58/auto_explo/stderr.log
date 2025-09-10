@@ -1,0 +1,7 @@
+[01m[K/home/naman72060/ros2_wsn/src/auto_explo/src/wfd_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/naman72060/ros2_wsn/src/auto_explo/src/wfd_node.cpp:87:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpy[m[K’ has not been declared
+   87 |   [01;31m[Krclpy[m[K::init(argc, argv);
+      |   [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/wfd_node.dir/build.make:76: CMakeFiles/wfd_node.dir/src/wfd_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wfd_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
